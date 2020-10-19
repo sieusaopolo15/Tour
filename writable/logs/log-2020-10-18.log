@@ -1,0 +1,28 @@
+CRITICAL - 2020-10-18 22:34:33 --> Use of undefined constant page - assumed 'page' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\Project\app\Controllers\Pages.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\Project\system\CodeIgniter.php(923): App\Controllers\Pages->show()
+#2 C:\xampp\htdocs\Project\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\Project\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-18 22:59:43 --> Use of undefined constant ADDPATH - assumed 'ADDPATH' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\Project\app\Controllers\pages.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\Project\system\CodeIgniter.php(923): App\Controllers\Pages->show('contact')
+#2 C:\xampp\htdocs\Project\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\Project\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-18 23:21:23 --> Undefined variable: page
+#0 C:\xampp\htdocs\Project\app\Controllers\pages.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\Project\system\CodeIgniter.php(923): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\Project\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\Project\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-18 23:21:49 --> Undefined variable: page
+#0 C:\xampp\htdocs\Project\app\Controllers\pages.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\Project\system\CodeIgniter.php(923): App\Controllers\Pages->index()
+#2 C:\xampp\htdocs\Project\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\xampp\htdocs\Project\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Project\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
